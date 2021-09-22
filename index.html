@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> find out population in each depertment..</title>
+    <link rel="stylesheet" href="./image/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid p-0 main">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-purple">
+          <h1 class="brand text-danger mx-5">Arfan Alfie's Web DEV.</h1>
+          <a class="navbar-brand" href="#"><img src="" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="assets/player.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Shop</a>
+                  <a class="dropdown-item" href="#">Catagory</a>
+                  <a class="dropdown-item" href="#">Contact us</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <p class="mx-5 text-success" id="demo"></p>
+       
+      
+      
+        <div class="container alfiee">
+          <div class="row justify-content-center bg-info p-2">
+            <div class="col-12 col-sm-6">
+              <h2 class=" text-center">Find out population by each commune. </h2>
+              
+              <form>
+                <div class="from-group">
+                  <label for="cp">Code Postal</label>
+                  <input
+                    type="text"
+                    maxlength="5"
+                    class="form-control"
+                    name="cp"
+                    id="cp"
+                    placeholder="Enter your post code"
+                  />
+                </div>
+              </form>
+              <div class="mb-5" id="ville"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactus">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h1>Contact Information</h1>
+              <br />
+              <h4>Address</h4>
+              <p> Vitry-sur-seine, 94400, France</p>
+              <h4>Telephone</h4>
+              <p>075139000*</p>
+              <h4>Email</h4>
+              <p>sample@gmail.fr</p>
+            </div>
+            <div class="col-12 col-lg-6 my-5">
+              <iframe
+                class="iframe"
+                width="600"
+                height="500"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=vitry-sur-seine&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container-fluid bg-dark">
+          <div class="row mt-5 pt-5 pb-5">
+            <div class="col-12 col-lg-4">
+              <ul class="text-center text-white list-unstyled">
+                <h4>Quick Links</h4>
+                <li><a href="#" class="text-white">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+              <ul class="text-center text-white list-unstyled">
+                <h4>Quick Links</h4>
+                <li><a href="#" class="text-white">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+              <ul class="text-center text-white list-unstyled">
+                <h4>Quick Links</h4>
+                <li><a href="#" class="text-white">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="function.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
